@@ -1,0 +1,267 @@
+html {
+    background-color: #dfefff;
+
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+/* FIM RESET CSS */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+.nome h1 {
+    padding: 30px 0;
+    font: 600 30px 'Poppins';
+    text-align: center;
+    background-color: lightskyblue;
+    height: 100px;
+}
+
+.subtitulo {
+    font: 200 20px 'Poppins';
+    background-color: #1f22cb;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.titulo {
+    font: 600 30px 'Poppins';
+    margin-left: 160px;
+    margin-top: 100px;
+}
+
+.text {
+    font: 400 19px 'Poppins';
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 10px;
+}
+
+#all {
+    margin-top: 50px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.quadrado {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    padding-top: 3%;
+
+    background-color: #eff4ff;
+    border-radius: 15px;
+    width: 240px;
+    height: 305px;
+
+    margin: 35px 0;
+}
+
+.quadrado:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: #5a66a8 5px 5px 5px 1px;
+    transition: 0.3s;
+}
+
+.imagem {
+    width: auto;
+    height: 140px;
+}
+
+.imagem2 {
+    width: auto;
+    height: 140px;
+}
+
+.imagem3 {
+    width: auto;
+    height: 140px;
+}
+
+.imagem4 {
+    width: auto;
+    height: 140px;
+}
+
+.imagem5 {
+    width: auto;
+    height: 140px;
+}
+
+.texto {
+    font: 500 20.5px 'Poppins';
+    text-align: center;
+}
+
+h5 {
+    font: 500 17px 'Poppins';
+    text-align: center; 
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.rodape {
+
+    margin-top: 80px;
+    height: 230px;
+    background-color: lightskyblue;
+}
+
+/* .palavras {
+    display: flex;
+} */
+
+.rodCalc {
+    text-align: center;
+    padding-top: 73px;
+    font: 600 26px 'Poppins';
+}
+
+.rodCall {
+    text-align: center;
+    font: 400 22px 'Poppins';
+}
+
+@media screen and (max-width: 400px) {
+    #all {
+        flex-direction: column;
+    }
+
+    .rodCalc {
+        text-align: center;
+        padding-top: 73px;
+        font: 600 23px 'Poppins';
+    }
+
+    .rodCall {
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+        font: 400 17px 'Poppins';
+    }
+
+    .titulo {
+        font: 600 25px 'Poppins';
+        display: flex;
+        margin-left: 35px;
+
+        justify-content: flex-start;
+    }
+    
+    .text {
+        font: 400 17px 'Poppins';
+
+        margin-right: 50px;
+        margin-left: 35px;
+        
+        text-align: justify;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 877px) {
+    #all {
+        flex-wrap: wrap;
+    }
+
+    .rodCalc {
+        text-align: center;
+        padding-top: 73px;
+        font: 600 23px 'Poppins';
+    }
+
+    .rodCall {
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+        font: 400 17px 'Poppins';
+    }
+
+    .titulo {
+        font: 600 25px 'Poppins';
+        display: flex;
+        margin-left: 135px;
+
+        justify-content: flex-start;
+    }
+    
+    .text {
+        font: 400 17px 'Poppins';
+
+        margin-right: 135px;
+        margin-left: 135px;
+        
+        text-align: justify;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 877px) and (max-width: 1350px) {
+    #all {
+        flex-wrap: wrap;
+    }
+
+    .rodCalc {
+        text-align: center;
+        padding-top: 73px;
+        font: 600 24px 'Poppins';
+    }
+
+    .rodCall {
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+        font: 400 20px 'Poppins';
+    }
+
+    .titulo {
+        font: 600 25px 'Poppins';
+        display: flex;
+        margin-left: 135px;
+
+        justify-content: flex-start;
+    }
+    
+    .text {
+        font: 400 17px 'Poppins';
+
+        margin-right: 135px;
+        margin-left: 135px;
+        
+        text-align: justify;
+        margin-top: 10px;
+    }
+}
